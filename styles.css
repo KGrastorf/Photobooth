@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(240, 219, 84);
+}
+
+.photobooth {
+  background-color: white;
+}
+
+.strip {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+img {
+  width: 100px;
+  height: auto;
+  border: 2px solid black;
+  padding: 10px 10px 40px 10px;
+}
